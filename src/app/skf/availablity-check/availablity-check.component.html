@@ -1,0 +1,23 @@
+<div class="card border border-secondary">
+  <br>
+<form (ngSubmit)="onSubmit()" class="form-horizontal" #f="ngForm" >
+  <div class="row form-group">
+    <div class="col col-md-3"><label for="Component" class=" form-control-label">Component</label></div>
+      <div class="col-12 col-md-9">
+        <select name="component" id="component" class="form-control" ngModel required >
+          
+          
+          <option value="1">Roller</option>
+          <option value="2">Lubricant</option>
+          <option value="3">Ball</option>
+        
+        </select>
+      </div>
+    </div>
+
+    
+
+          <div class="form-actions form-group" ><button type="submit" class="btn btn-success btn-sm">Submit</button></div>
+        </form>
+        <br>
+        </div>

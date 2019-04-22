@@ -1,0 +1,33 @@
+
+
+<div align="left">
+              <table id="bootstrap-data-table" class="table table-striped table-bordered" >
+                  <thead>
+                      <tr >
+                          <th>Component No.</th>
+                          <th>Component Name</th>
+                          <th>ComponentType</th>
+                          <th>Quantity</th>
+                          <th>suppyname</th>
+                          <th>rt</th>
+                          <th>frequency</th>
+      
+                      </tr> 
+                  </thead>
+                  <tbody>
+                      <tr *ngFor="let d of InData">
+                          <td> {{d.compno}} </td>
+                          <td> {{d.compname}} </td>
+                          <td>{{d.comptype}}</td>
+                          <td>{{d.quantity}}</td>
+                          <td> {{d.suppyname}} </td>
+                          <td>{{d.rt}}</td>
+                          <td>{{d.frequency}}</td>
+                          
+                            
+                      </tr>
+                  </tbody>
+              </table>
+        
+
+            </div>

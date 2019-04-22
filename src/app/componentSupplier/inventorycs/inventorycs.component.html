@@ -1,0 +1,36 @@
+<div class="animated fadeIn">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <strong class="card-title">Data Table</strong>
+            </div>
+            <div class="card-body">
+                <table id="bootstrap-data-table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr align="center" >
+                            <th>Component Name</th>
+                           
+                            <th>Existing Inventory</th>
+                           
+                        </tr> 
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let d of InData">
+                            <td> {{d.compname}} </td>
+                           
+                            <td>{{d.existinginventory}}</td>
+                              
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+      </div>
+  
+  
+    </div>
+  
+  
+   

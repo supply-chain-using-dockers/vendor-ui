@@ -1,0 +1,75 @@
+<div class="animated fadeIn">
+  <div class="col-md-12">
+      <div class="card">
+          <div class="card-header">
+              <strong class="card-title">Data Table</strong>
+          </div>
+          <div class="card-body">
+              <table id="bootstrap-data-table" class="table table-striped table-bordered">
+                  <thead>
+                      <tr align="center" >
+                         
+                          <th>Component Type<th>                            
+                          <th>january</th>
+                          <th>february </th>
+                          <th>march</th>
+                          <th>april </th>
+                          <th>may</th>
+                          <th>june</th>
+                          <th>View Details</th>
+                         
+                          
+                      </tr> 
+                  </thead>
+                      <tr>
+                          <td>TypeA</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+
+                          <td><button class="btn btn-primary" id="type1" (click)="onsubmit()">View</button></td>
+
+                    </tr>
+                      <tr>
+                        <td>TypeB</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                        <td><button class="btn btn-primary" id="type2" (click)="onsubmit()">View</button></td>
+
+
+
+                    </tr>
+              </table>
+          </div>
+      </div>
+  </div>          
+  </div>
+
+
+
+<form (ngSubmit)="onSubmit()" class="form-horizontal" #f="ngForm">
+  <div class="col col-md-3"><label for="Component Type" class=" form-control-label">Year</label></div>
+  
+      <div class="col-12 col-md-9">
+          <select name="year" id="year" class="form-control" ngModel required >
+              
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+            
+          </select>
+      </div>
+  <div class="form-actions form-group" ><button type="submit" class="btn btn-success btn-sm">Submit</button></div>
+</form>
+<!-- <input type="text" class ="form-control" (input)="setYear($event)" > -->
+
+<div id="chartContainer" style="height: 370px; width: 100%; margin-left:auto;margin-right:auto;"></div>

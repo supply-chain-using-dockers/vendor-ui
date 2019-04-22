@@ -1,0 +1,70 @@
+p{
+    color: black;
+}
+
+.btn{
+    color:red;
+}
+.btn, .button {
+
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    transition: all .15s ease-in-out;
+    border-radius: 3;
+    cursor: pointer;
+    margin-left: 180px;
+
+}
+p[_ngcontent-c2] {
+
+    color: black;
+
+}
+
+.card {
+
+    margin-bottom: 1.875em;
+    border-radius: 5px;
+    padding: 0;
+    border: 0px solid transparent;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    margin-left: -243px;
+    margin-right: 40px;
+
+}
+b, strong {
+
+    font-weight: bolder;
+    margin-left: 200px;
+
+}
+
+.btn{
+
+    color: white
+}
+
+
+element.style {
+}
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+.table[_ngcontent-c2] {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    margin-left: -214px;
+}
+body {
+    display: table;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin-left: -600px;
+    margin-top:30px;
+    margin-right: 400px;
+    width: 100%;
+}

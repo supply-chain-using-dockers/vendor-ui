@@ -1,0 +1,58 @@
+<div class="row" *ngFor="let d of orderData">
+  <div class="col-md-10">
+             <div class="card">
+                 <div class="card-header bg-secondary">
+                     <strong class="card-title text-light">ORDER</strong>
+                 </div>
+                 <div class="card-body text-black">
+                    
+                             
+                               <p>batches         :{{d.batches}} </p>
+                               <p>quantity        :{{d.quantity}} </p>
+                               <p> component      :{{d.component}} </p>
+                               <p> componentType  :{{d.componentType}} </p>
+                               <p> expectedDate   :{{d.expectedDate}} </p>
+                               <p> orderDate      :{{d.orderDate}} </p>
+                               <p> supplier       :{{d.supplier}} </p>
+                               <p> deliveryMode   :{{d.deliveryMode}} </p>
+                               <!-- <p> dispatchStatus :{{d.dispatchStatus}} </p> -->
+
+                         <br>
+                         <button (click)="onsubmit()" >Process Order</button>      
+                           
+
+                 </div>
+             </div>
+         </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

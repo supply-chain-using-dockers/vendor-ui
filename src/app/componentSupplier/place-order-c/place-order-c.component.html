@@ -1,0 +1,76 @@
+<!-- 
+
+
+  
+      <div class="animated fadeIn">
+        <div class="row">
+          <div class="col-md-10">
+            <div class="card border border-secondary">
+              <div class="card-header">
+                <strong>Fill In the order details</strong> 
+              </div>
+              <div class="card-body card-block">
+                  <form  class="form-horizontal" #f="NgForm" >
+
+                        
+                        <div class="row form-group">
+                            <div class="col col-md-3"><label for="Component Type" class=" form-control-label">Raw Material Type</label></div>
+                              <div class="col-12 col-md-9">
+                                <select name="componentType" id="componentType" class="form-control" ngModel required >
+                                  <option value="0">Please select</option>
+                                  <option value="1">Steel</option>
+                                  <option value="2">Iron</option>
+                                  <option value="3">Chrome</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="row form-group">
+                            <div class="col col-md-3"><label for="quantity" class=" form-control-label">Quantity</label></div>
+                            <div class="col-12 col-md-9">
+                              <input type="number" 
+                                id="quantity" 
+                                name="quantity" 
+                                placeholder="Enter Quantity" 
+                                class="form-control"
+                                [(ngModel)]="q" required>
+                              </div>
+                        </div>
+                        
+                        <div class="row form-group">
+                              <div class="col col-md-3"><label for="Input Weight" class=" form-control-label" >Input Weight</label></div>
+                              <div class="col-12 col-md-9">
+                                <input 
+                                  type="number" 
+                                  id="price" 
+                                  name="price" 
+                                  placeholder="Enter the weight" 
+                                  class="form-control"
+                                  [(ngModel)]="p" required></div>
+                        </div>
+                        <div class="row form-group">
+                              <div class="col col-md-3"><label for="amount" class=" form-control-label">Total Transaction Amount</label></div>
+                              <div class="col-12 col-md-9"  [(ngModel)]="totalamount" >
+                                <p> {{p*q}} </p>
+                              </div>
+                        </div>
+                        <div class="row form-group">
+                              <div class="col col-md-3"><label for="Expected_Date" class=" form-control-label">Expected Date</label></div>
+                              <div class="col-12 col-md-9">
+                                <input 
+                                  type="date" 
+                                  id="expectedDate" 
+                                  name="expectedDate"  
+                                  class="form-control"
+                                  ngModel required></div>
+                        </div>
+                        <div class="form-actions form-group"  ><button type="submit" class="btn btn-success btn-sm">Submit</button></div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+ -->

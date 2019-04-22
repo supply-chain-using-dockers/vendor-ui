@@ -1,0 +1,49 @@
+p{
+    color: black;
+}
+
+.btn{
+    color:red;
+}
+.btn, .button {
+
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    transition: all .15s ease-in-out;
+    border-radius: 3;
+    cursor: pointer;
+    margin-left: 180px;
+
+}
+p[_ngcontent-c2] {
+
+    color: black;
+
+}
+
+.card {
+
+    margin-bottom: 1.875em;
+    border-radius: 5px;
+    padding: 0;
+    border: 0px solid transparent;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    margin-left: -243px;
+    margin-right: 40px;
+
+}
+b, strong {
+
+    font-weight: bolder;
+    margin-left: 200px;
+
+}
+
+
+b[_ngcontent-c2], strong[_ngcontent-c2] {
+    font-weight: bolder;
+    margin-left: 322px;
+}

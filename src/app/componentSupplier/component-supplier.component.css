@@ -1,0 +1,26 @@
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+navbar .navbar-nav {
+    float: none;
+    position: relative;
+    margin-top: 34px;
+}
+
+
+.navbar .navbar-nav li.menu-item-has-children a {
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.header-left {
+    display: inline-block;
+    margin-top: 12px;
+}

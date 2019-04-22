@@ -1,0 +1,49 @@
+<div class="animated fadeIn">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <strong class="card-title">Data Table</strong>
+                </div>
+                <div class="card-body">
+                    <table id="bootstrap-data-table" class="table table-striped table-bordered">
+                        <thead>
+                            <tr align="center" >
+                               
+                                <th>Suppliers</th>                            
+                                <th>january</th>
+                                <th>february </th>
+                                <th>march</th>
+                                <th>april </th>
+                                <th>may</th>
+                                <th>june</th>
+                               
+                                
+                            </tr> 
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let d of orderData">
+                                <td>{{d.supplyname}}</td>
+                                <!-- <td> {{d.compname}} </td>
+                                <td>{{d.comptype}}</td>
+                                <td>{{d.quantity/d.frequency*1.17}}</td>
+                                <td>{{sample(d.quantity,d.frequency)}}</td>
+                                <td>{{d.supplyname}}</td> -->
+                                <td [ngClass]="GreenCheck(d)"></td>
+                                <td [ngClass]="GreenCheck(d)"></td>
+                                <td [ngClass]="YellowCheck(d)"></td>
+                                <td [ngClass]="YellowCheck(d)"></td>
+                                <td [ngClass]="YellowCheck(d)"></td>
+                                <td [ngClass]="RedCheck(d)"></td>
+                                
+                                <td><button class="btn btn-primary" id="{{'button_'+ d.supplyname}}" (click)="onsubmit()">View</button></td>
+                                <!-- <td></td> -->
+                                
+                                
+                            </tr>
+                        </tbody>
+                        
+                    </table>
+                </div>
+            </div>
+        </div>          
+        </div>
